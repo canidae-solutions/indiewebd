@@ -1,0 +1,37 @@
+{
+  "pins": {
+    "git-hooks": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "cachix",
+        "repo": "git-hooks.nix"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "dcf5072734cb576d2b0c59b2ac44f5050b5eac82",
+      "url": "https://github.com/cachix/git-hooks.nix/archive/dcf5072734cb576d2b0c59b2ac44f5050b5eac82.tar.gz",
+      "hash": "1jmdxmx29xghjiaks6f5amnxld8w3kmxb2zv8lk2yzpgp6kr60qg"
+    },
+    "nixpkgs": {
+      "type": "Channel",
+      "name": "nixpkgs-unstable",
+      "url": "https://releases.nixos.org/nixpkgs/nixpkgs-25.05pre774024.25d1b84f5c90/nixexprs.tar.xz",
+      "hash": "0wn9xnzdx2j6x4sddlrgks3r6nh3x4z27s7wfgjcmjy2i7snwkrx"
+    },
+    "treefmt-nix": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "numtide",
+        "repo": "treefmt-nix"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "49d05555ccdd2592300099d6a657cc33571f4fe0",
+      "url": "https://github.com/numtide/treefmt-nix/archive/49d05555ccdd2592300099d6a657cc33571f4fe0.tar.gz",
+      "hash": "0s2i2n6ahsigcsphfng5qfqqmvmbck0c0rn0lwagb8xb2555rw90"
+    }
+  },
+  "version": 5
+}
