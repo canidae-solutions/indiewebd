@@ -39,3 +39,9 @@ npm-debug.log
 /.direnv/
 /result*
 .pre-commit-config.yaml
+
+# Elixir language server
+/.elixir_ls/
+
+# Local development PostgreSQL database
+/.pgdata/

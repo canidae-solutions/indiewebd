@@ -1,0 +1,12 @@
+procs:
+  server:
+    shell: mix phx.server
+  server-interactive:
+    shell: iex -S mix phx.server
+    autostart: false
+  test:
+    shell: mix test
+    autostart: false
+  db:
+    shell: postgres -c unix_socket_directories="$PGDATA"
+    autorestart: true

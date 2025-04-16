@@ -18,6 +18,7 @@ pkgs.mkShell {
   name = "base-devshell";
   packages = with pkgs; [
     just
+    mprocs
     treefmt
 
     nixfmt-rfc-style
@@ -27,9 +28,13 @@ pkgs.mkShell {
     elixir
     elixir_ls
     inotify-tools
+
+    postgresql_17
   ];
 
   shellHook = ''
+    export PGDATA="$PWD/.pgdata"
+
     ${commitHooks.shellHook}
   '';
 }

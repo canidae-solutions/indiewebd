@@ -6,10 +6,7 @@ the daemon that your static-site indieweb blog never knew it wanted
 ## dev flow
 all dependencies for local dev are in the nix shell. make sure you're in there while developing.
 
-run server:
-``` shell
-just
-```
+first off, run the initial repo setup with `just dev-setup`. then, you can start the dev server and all other dependencies with `just`.
 
 ## roadmap
 - webmentions

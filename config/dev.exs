@@ -2,9 +2,8 @@ import Config
 
 # Configure your database
 config :indiewebd, Indiewebd.Repo,
-  username: "postgres",
-  password: "postgres",
-  hostname: "localhost",
+  username: "indiewebd",
+  socket_dir: System.get_env("PGDATA"),
   database: "indiewebd_dev",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
